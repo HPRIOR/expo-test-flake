@@ -1,0 +1,859 @@
+(node:449204) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+› Opening emulator android-em-test
+› Building app...
+Configuration on demand is an incubating feature.
+> Task :expo-dev-launcher-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-dev-launcher-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-dev-launcher-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:compileJava NO-SOURCE
+> Task :expo-dev-launcher-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:classes UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: The option setting 'android.aapt2FromMavenOverride=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/build-tools/34.0.0/aapt2' is experimental.
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-dev-launcher-gradle-plugin[0m' (expo-dev-launcher@4.0.20)
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-asset[0m (10.0.9)
+  - [32mexpo-constants[0m (16.0.2)
+  - [32mexpo-dev-client[0m (4.0.18)
+  - [32mexpo-dev-launcher[0m (4.0.20)
+  - [32mexpo-dev-menu[0m (5.0.15)
+  - [32mexpo-file-system[0m (17.0.1)
+  - [32mexpo-font[0m (12.0.7)
+  - [32mexpo-json-utils[0m (0.13.1)
+  - [32mexpo-keep-awake[0m (13.0.2)
+  - [32mexpo-manifests[0m (0.14.3)
+  - [32mexpo-modules-core[0m (1.12.15)
+  - [32mexpo-splash-screen[0m (0.27.5)
+  - [32mexpo-system-ui[0m (3.0.6)
+  - [32mexpo-web-browser[0m (13.0.3)
+
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.2.1
+Gradle: 8.6
+
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :expo:generateExpoModulesPackageListTask UP-TO-DATE
+> Task :expo:preBuild UP-TO-DATE
+> Task :expo:preDebugBuild UP-TO-DATE
+> Task :expo:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-asset:preBuild UP-TO-DATE
+> Task :expo-asset:preDebugBuild UP-TO-DATE
+> Task :expo-asset:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-constants:createExpoConfig UP-TO-DATE
+> Task :expo-constants:preBuild UP-TO-DATE
+> Task :expo-constants:preDebugBuild UP-TO-DATE
+> Task :expo-constants:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-dev-client:preBuild UP-TO-DATE
+> Task :expo-dev-client:preDebugBuild UP-TO-DATE
+> Task :expo-dev-client:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-dev-launcher:preBuild UP-TO-DATE
+> Task :expo-dev-launcher:preDebugBuild UP-TO-DATE
+> Task :expo-dev-launcher:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-dev-menu:preBuild UP-TO-DATE
+> Task :expo-dev-menu:preDebugBuild UP-TO-DATE
+> Task :expo-dev-menu:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-dev-menu-interface:preBuild UP-TO-DATE
+> Task :expo-dev-menu-interface:preDebugBuild UP-TO-DATE
+> Task :expo-dev-menu-interface:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-file-system:preBuild UP-TO-DATE
+> Task :expo-file-system:preDebugBuild UP-TO-DATE
+> Task :expo-file-system:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-font:preBuild UP-TO-DATE
+> Task :expo-font:preDebugBuild UP-TO-DATE
+> Task :expo-font:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-json-utils:preBuild UP-TO-DATE
+> Task :expo-json-utils:preDebugBuild UP-TO-DATE
+> Task :expo-json-utils:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-keep-awake:preBuild UP-TO-DATE
+> Task :expo-keep-awake:preDebugBuild UP-TO-DATE
+> Task :expo-keep-awake:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-manifests:preBuild UP-TO-DATE
+> Task :expo-manifests:preDebugBuild UP-TO-DATE
+> Task :expo-manifests:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-splash-screen:preBuild UP-TO-DATE
+> Task :expo-splash-screen:preDebugBuild UP-TO-DATE
+> Task :expo-splash-screen:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-system-ui:preBuild UP-TO-DATE
+> Task :expo-system-ui:preDebugBuild UP-TO-DATE
+> Task :expo-system-ui:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-updates-interface:preBuild UP-TO-DATE
+> Task :expo-updates-interface:preDebugBuild UP-TO-DATE
+> Task :expo-updates-interface:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-web-browser:preBuild UP-TO-DATE
+> Task :expo-web-browser:preDebugBuild UP-TO-DATE
+> Task :expo-web-browser:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:assertLatestReactNativeWithNewArchitectureTask SKIPPED
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-reanimated:prepareHeadersForPrefab UP-TO-DATE
+> Task :react-native-reanimated:preBuild UP-TO-DATE
+> Task :react-native-reanimated:preDebugBuild UP-TO-DATE
+> Task :react-native-reanimated:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-screens:preDebugBuild UP-TO-DATE
+> Task :react-native-screens:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :expo:generateDebugResValues UP-TO-DATE
+> Task :expo:generateDebugResources UP-TO-DATE
+> Task :expo:packageDebugResources UP-TO-DATE
+> Task :expo-asset:generateDebugResValues UP-TO-DATE
+> Task :expo-asset:generateDebugResources UP-TO-DATE
+> Task :expo-asset:packageDebugResources UP-TO-DATE
+> Task :expo-constants:generateDebugResValues UP-TO-DATE
+> Task :expo-constants:generateDebugResources UP-TO-DATE
+> Task :expo-constants:packageDebugResources UP-TO-DATE
+> Task :expo-dev-client:generateDebugResValues UP-TO-DATE
+> Task :expo-dev-client:generateDebugResources UP-TO-DATE
+> Task :expo-dev-client:packageDebugResources UP-TO-DATE
+> Task :expo-dev-launcher:generateDebugResValues UP-TO-DATE
+> Task :expo-dev-launcher:generateDebugResources UP-TO-DATE
+> Task :expo-dev-launcher:packageDebugResources UP-TO-DATE
+> Task :expo-dev-menu:generateDebugResValues UP-TO-DATE
+> Task :expo-dev-menu:generateDebugResources UP-TO-DATE
+> Task :expo-dev-menu:packageDebugResources UP-TO-DATE
+> Task :expo-dev-menu-interface:generateDebugResValues UP-TO-DATE
+> Task :expo-dev-menu-interface:generateDebugResources UP-TO-DATE
+> Task :expo-dev-menu-interface:packageDebugResources UP-TO-DATE
+> Task :expo-file-system:generateDebugResValues UP-TO-DATE
+> Task :expo-file-system:generateDebugResources UP-TO-DATE
+> Task :expo-file-system:packageDebugResources UP-TO-DATE
+> Task :expo-font:generateDebugResValues UP-TO-DATE
+> Task :expo-font:generateDebugResources UP-TO-DATE
+> Task :expo-font:packageDebugResources UP-TO-DATE
+> Task :expo-json-utils:generateDebugResValues UP-TO-DATE
+> Task :expo-json-utils:generateDebugResources UP-TO-DATE
+> Task :expo-json-utils:packageDebugResources UP-TO-DATE
+> Task :expo-keep-awake:generateDebugResValues UP-TO-DATE
+> Task :expo-keep-awake:generateDebugResources UP-TO-DATE
+> Task :expo-keep-awake:packageDebugResources UP-TO-DATE
+> Task :expo-manifests:generateDebugResValues UP-TO-DATE
+> Task :expo-manifests:generateDebugResources UP-TO-DATE
+> Task :expo-manifests:packageDebugResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugResValues UP-TO-DATE
+> Task :expo-modules-core:generateDebugResources UP-TO-DATE
+> Task :expo-modules-core:packageDebugResources UP-TO-DATE
+> Task :expo-splash-screen:generateDebugResValues UP-TO-DATE
+> Task :expo-splash-screen:generateDebugResources UP-TO-DATE
+> Task :expo-splash-screen:packageDebugResources UP-TO-DATE
+> Task :expo-system-ui:generateDebugResValues UP-TO-DATE
+> Task :expo-system-ui:generateDebugResources UP-TO-DATE
+> Task :expo-system-ui:packageDebugResources UP-TO-DATE
+> Task :expo-updates-interface:generateDebugResValues UP-TO-DATE
+> Task :expo-updates-interface:generateDebugResources UP-TO-DATE
+> Task :expo-updates-interface:packageDebugResources UP-TO-DATE
+> Task :expo-web-browser:generateDebugResValues UP-TO-DATE
+> Task :expo-web-browser:generateDebugResources UP-TO-DATE
+> Task :expo-web-browser:packageDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResValues UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:packageDebugResources UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResValues UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResources UP-TO-DATE
+> Task :react-native-reanimated:packageDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResValues UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugResources UP-TO-DATE
+> Task :react-native-screens:generateDebugResValues UP-TO-DATE
+> Task :react-native-screens:generateDebugResources UP-TO-DATE
+> Task :react-native-screens:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:processDebugManifest UP-TO-DATE
+> Task :expo-asset:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-asset:processDebugManifest UP-TO-DATE
+> Task :expo-constants:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-constants:processDebugManifest UP-TO-DATE
+> Task :expo-dev-client:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-dev-client:processDebugManifest UP-TO-DATE
+> Task :expo-dev-launcher:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-dev-launcher:processDebugManifest UP-TO-DATE
+> Task :expo-dev-menu:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-dev-menu:processDebugManifest UP-TO-DATE
+> Task :expo-dev-menu-interface:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-dev-menu-interface:processDebugManifest UP-TO-DATE
+> Task :expo-file-system:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-file-system:processDebugManifest UP-TO-DATE
+> Task :expo-font:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-font:processDebugManifest UP-TO-DATE
+> Task :expo-json-utils:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-json-utils:processDebugManifest UP-TO-DATE
+> Task :expo-keep-awake:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-keep-awake:processDebugManifest UP-TO-DATE
+> Task :expo-manifests:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-manifests:processDebugManifest UP-TO-DATE
+> Task :expo-modules-core:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-modules-core:processDebugManifest UP-TO-DATE
+> Task :expo-splash-screen:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-splash-screen:processDebugManifest UP-TO-DATE
+> Task :expo-system-ui:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-system-ui:processDebugManifest UP-TO-DATE
+> Task :expo-updates-interface:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-updates-interface:processDebugManifest UP-TO-DATE
+> Task :expo-web-browser:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-web-browser:processDebugManifest UP-TO-DATE
+> Task :react-native-gesture-handler:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-gesture-handler:processDebugManifest UP-TO-DATE
+> Task :react-native-reanimated:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-reanimated:processDebugManifest UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-safe-area-context:processDebugManifest UP-TO-DATE
+> Task :react-native-screens:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-screens:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :expo:compileDebugLibraryResources UP-TO-DATE
+> Task :expo:parseDebugLocalResources UP-TO-DATE
+> Task :expo:generateDebugRFile UP-TO-DATE
+> Task :expo-asset:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-asset:parseDebugLocalResources UP-TO-DATE
+> Task :expo-asset:generateDebugRFile UP-TO-DATE
+> Task :expo-constants:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-constants:parseDebugLocalResources UP-TO-DATE
+> Task :expo-constants:generateDebugRFile UP-TO-DATE
+> Task :expo-dev-client:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-dev-client:parseDebugLocalResources UP-TO-DATE
+> Task :expo-dev-client:generateDebugRFile UP-TO-DATE
+> Task :expo-dev-launcher:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-dev-launcher:parseDebugLocalResources UP-TO-DATE
+> Task :expo-dev-launcher:generateDebugRFile UP-TO-DATE
+> Task :expo-dev-menu:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-dev-menu:parseDebugLocalResources UP-TO-DATE
+> Task :expo-dev-menu:generateDebugRFile UP-TO-DATE
+> Task :expo-dev-menu-interface:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-dev-menu-interface:parseDebugLocalResources UP-TO-DATE
+> Task :expo-dev-menu-interface:generateDebugRFile UP-TO-DATE
+> Task :expo-file-system:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-file-system:parseDebugLocalResources UP-TO-DATE
+> Task :expo-file-system:generateDebugRFile UP-TO-DATE
+> Task :expo-font:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-font:parseDebugLocalResources UP-TO-DATE
+> Task :expo-font:generateDebugRFile UP-TO-DATE
+> Task :expo-json-utils:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-json-utils:parseDebugLocalResources UP-TO-DATE
+> Task :expo-json-utils:generateDebugRFile UP-TO-DATE
+> Task :expo-keep-awake:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-keep-awake:parseDebugLocalResources UP-TO-DATE
+> Task :expo-keep-awake:generateDebugRFile UP-TO-DATE
+> Task :expo-manifests:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-manifests:parseDebugLocalResources UP-TO-DATE
+> Task :expo-manifests:generateDebugRFile UP-TO-DATE
+> Task :expo-modules-core:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-modules-core:parseDebugLocalResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugRFile UP-TO-DATE
+> Task :expo-splash-screen:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-splash-screen:parseDebugLocalResources UP-TO-DATE
+> Task :expo-splash-screen:generateDebugRFile UP-TO-DATE
+> Task :expo-system-ui:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-system-ui:parseDebugLocalResources UP-TO-DATE
+> Task :expo-system-ui:generateDebugRFile UP-TO-DATE
+> Task :expo-updates-interface:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-updates-interface:parseDebugLocalResources UP-TO-DATE
+> Task :expo-updates-interface:generateDebugRFile UP-TO-DATE
+> Task :expo-web-browser:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-web-browser:parseDebugLocalResources UP-TO-DATE
+> Task :expo-web-browser:generateDebugRFile UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-gesture-handler:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugRFile UP-TO-DATE
+> Task :react-native-reanimated:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-reanimated:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-reanimated:generateDebugRFile UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugRFile UP-TO-DATE
+> Task :react-native-screens:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-screens:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-screens:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :expo:checkKotlinGradlePluginConfigurationErrors
+> Task :expo:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-asset:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-asset:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-modules-core:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-modules-core:compileDebugKotlin UP-TO-DATE
+> Task :expo-modules-core:javaPreCompileDebug UP-TO-DATE
+> Task :expo-modules-core:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-modules-core:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-asset:compileDebugKotlin UP-TO-DATE
+> Task :expo-asset:javaPreCompileDebug UP-TO-DATE
+> Task :expo-asset:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-asset:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-constants:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-constants:compileDebugKotlin UP-TO-DATE
+> Task :expo-constants:javaPreCompileDebug UP-TO-DATE
+> Task :expo-constants:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-constants:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-dev-client:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-dev-client:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :expo-dev-client:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :expo-dev-client:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-dev-client:compileDebugKotlin NO-SOURCE
+> Task :expo-dev-client:javaPreCompileDebug UP-TO-DATE
+> Task :expo-dev-client:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-dev-client:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-dev-launcher:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-dev-launcher:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :expo-dev-launcher:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :expo-dev-launcher:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-dev-menu:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-dev-menu:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-dev-menu-interface:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-dev-menu-interface:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-dev-menu-interface:compileDebugKotlin UP-TO-DATE
+> Task :expo-dev-menu-interface:javaPreCompileDebug UP-TO-DATE
+> Task :expo-dev-menu-interface:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-dev-menu-interface:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-json-utils:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-json-utils:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-json-utils:compileDebugKotlin UP-TO-DATE
+> Task :expo-json-utils:javaPreCompileDebug UP-TO-DATE
+> Task :expo-json-utils:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-json-utils:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-manifests:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-manifests:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-manifests:compileDebugKotlin UP-TO-DATE
+> Task :expo-manifests:javaPreCompileDebug UP-TO-DATE
+> Task :expo-manifests:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-manifests:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-dev-menu:compileDebugKotlin UP-TO-DATE
+> Task :expo-dev-menu:javaPreCompileDebug UP-TO-DATE
+> Task :expo-dev-menu:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-dev-menu:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-updates-interface:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-updates-interface:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-updates-interface:compileDebugKotlin UP-TO-DATE
+> Task :expo-updates-interface:javaPreCompileDebug UP-TO-DATE
+> Task :expo-updates-interface:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-updates-interface:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-dev-launcher:compileDebugKotlin UP-TO-DATE
+> Task :expo-dev-launcher:javaPreCompileDebug UP-TO-DATE
+> Task :expo-dev-launcher:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-dev-launcher:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-file-system:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-file-system:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-file-system:compileDebugKotlin UP-TO-DATE
+> Task :expo-file-system:javaPreCompileDebug UP-TO-DATE
+> Task :expo-file-system:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-file-system:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-font:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-font:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-font:compileDebugKotlin UP-TO-DATE
+> Task :expo-font:javaPreCompileDebug UP-TO-DATE
+> Task :expo-font:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-font:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-keep-awake:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-keep-awake:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-keep-awake:compileDebugKotlin UP-TO-DATE
+> Task :expo-keep-awake:javaPreCompileDebug UP-TO-DATE
+> Task :expo-keep-awake:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-keep-awake:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-splash-screen:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-splash-screen:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-splash-screen:compileDebugKotlin UP-TO-DATE
+> Task :expo-splash-screen:javaPreCompileDebug UP-TO-DATE
+> Task :expo-splash-screen:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-splash-screen:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-system-ui:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-system-ui:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-system-ui:compileDebugKotlin UP-TO-DATE
+> Task :expo-system-ui:javaPreCompileDebug UP-TO-DATE
+> Task :expo-system-ui:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-system-ui:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-web-browser:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-web-browser:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-web-browser:compileDebugKotlin UP-TO-DATE
+> Task :expo-web-browser:javaPreCompileDebug UP-TO-DATE
+> Task :expo-web-browser:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-web-browser:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo:compileDebugKotlin UP-TO-DATE
+> Task :expo:javaPreCompileDebug UP-TO-DATE
+> Task :expo:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-gesture-handler:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-reanimated:packageNdkLibs NO-SOURCE
+> Task :react-native-reanimated:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-reanimated:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugKotlin UP-TO-DATE
+> Task :react-native-gesture-handler:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-safe-area-context:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugKotlin UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-screens:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-screens:compileDebugKotlin UP-TO-DATE
+> Task :react-native-screens:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-screens:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-screens:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :expo:mergeDebugShaders UP-TO-DATE
+> Task :expo:compileDebugShaders NO-SOURCE
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:packageDebugAssets UP-TO-DATE
+> Task :expo-asset:mergeDebugShaders UP-TO-DATE
+> Task :expo-asset:compileDebugShaders NO-SOURCE
+> Task :expo-asset:generateDebugAssets UP-TO-DATE
+> Task :expo-asset:packageDebugAssets UP-TO-DATE
+> Task :expo-constants:mergeDebugShaders UP-TO-DATE
+> Task :expo-constants:compileDebugShaders NO-SOURCE
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:packageDebugAssets UP-TO-DATE
+> Task :expo-dev-client:mergeDebugShaders UP-TO-DATE
+> Task :expo-dev-client:compileDebugShaders NO-SOURCE
+> Task :expo-dev-client:generateDebugAssets UP-TO-DATE
+> Task :expo-dev-client:packageDebugAssets UP-TO-DATE
+> Task :expo-dev-launcher:mergeDebugShaders UP-TO-DATE
+> Task :expo-dev-launcher:compileDebugShaders NO-SOURCE
+> Task :expo-dev-launcher:generateDebugAssets UP-TO-DATE
+> Task :expo-dev-launcher:packageDebugAssets UP-TO-DATE
+> Task :expo-dev-menu:mergeDebugShaders UP-TO-DATE
+> Task :expo-dev-menu:compileDebugShaders NO-SOURCE
+> Task :expo-dev-menu:clenupAssets UP-TO-DATE
+> Task :expo-dev-menu:copyAssets UP-TO-DATE
+> Task :expo-dev-menu:generateDebugAssets UP-TO-DATE
+> Task :expo-dev-menu:packageDebugAssets UP-TO-DATE
+> Task :expo-dev-menu-interface:mergeDebugShaders UP-TO-DATE
+> Task :expo-dev-menu-interface:compileDebugShaders NO-SOURCE
+> Task :expo-dev-menu-interface:generateDebugAssets UP-TO-DATE
+> Task :expo-dev-menu-interface:packageDebugAssets UP-TO-DATE
+> Task :expo-file-system:mergeDebugShaders UP-TO-DATE
+> Task :expo-file-system:compileDebugShaders NO-SOURCE
+> Task :expo-file-system:generateDebugAssets UP-TO-DATE
+> Task :expo-file-system:packageDebugAssets UP-TO-DATE
+> Task :expo-font:mergeDebugShaders UP-TO-DATE
+> Task :expo-font:compileDebugShaders NO-SOURCE
+> Task :expo-font:generateDebugAssets UP-TO-DATE
+> Task :expo-font:packageDebugAssets UP-TO-DATE
+> Task :expo-json-utils:mergeDebugShaders UP-TO-DATE
+> Task :expo-json-utils:compileDebugShaders NO-SOURCE
+> Task :expo-json-utils:generateDebugAssets UP-TO-DATE
+> Task :expo-json-utils:packageDebugAssets UP-TO-DATE
+> Task :expo-keep-awake:mergeDebugShaders UP-TO-DATE
+> Task :expo-keep-awake:compileDebugShaders NO-SOURCE
+> Task :expo-keep-awake:generateDebugAssets UP-TO-DATE
+> Task :expo-keep-awake:packageDebugAssets UP-TO-DATE
+> Task :expo-manifests:mergeDebugShaders UP-TO-DATE
+> Task :expo-manifests:compileDebugShaders NO-SOURCE
+> Task :expo-manifests:generateDebugAssets UP-TO-DATE
+> Task :expo-manifests:packageDebugAssets UP-TO-DATE
+> Task :expo-modules-core:mergeDebugShaders UP-TO-DATE
+> Task :expo-modules-core:compileDebugShaders NO-SOURCE
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:packageDebugAssets UP-TO-DATE
+> Task :expo-splash-screen:mergeDebugShaders UP-TO-DATE
+> Task :expo-splash-screen:compileDebugShaders NO-SOURCE
+> Task :expo-splash-screen:generateDebugAssets UP-TO-DATE
+> Task :expo-splash-screen:packageDebugAssets UP-TO-DATE
+> Task :expo-system-ui:mergeDebugShaders UP-TO-DATE
+> Task :expo-system-ui:compileDebugShaders NO-SOURCE
+> Task :expo-system-ui:generateDebugAssets UP-TO-DATE
+> Task :expo-system-ui:packageDebugAssets UP-TO-DATE
+> Task :expo-updates-interface:mergeDebugShaders UP-TO-DATE
+> Task :expo-updates-interface:compileDebugShaders NO-SOURCE
+> Task :expo-updates-interface:generateDebugAssets UP-TO-DATE
+> Task :expo-updates-interface:packageDebugAssets UP-TO-DATE
+> Task :expo-web-browser:mergeDebugShaders UP-TO-DATE
+> Task :expo-web-browser:compileDebugShaders NO-SOURCE
+> Task :expo-web-browser:generateDebugAssets UP-TO-DATE
+> Task :expo-web-browser:packageDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugShaders UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugShaders NO-SOURCE
+> Task :react-native-gesture-handler:generateDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:packageDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugShaders UP-TO-DATE
+> Task :react-native-reanimated:compileDebugShaders NO-SOURCE
+> Task :react-native-reanimated:generateDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:packageDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugShaders UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugAssets UP-TO-DATE
+> Task :react-native-screens:mergeDebugShaders UP-TO-DATE
+> Task :react-native-screens:compileDebugShaders NO-SOURCE
+> Task :react-native-screens:generateDebugAssets UP-TO-DATE
+> Task :react-native-screens:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :expo:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-asset:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-constants:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-dev-client:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-dev-launcher:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-dev-menu:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-dev-menu-interface:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-file-system:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-font:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-json-utils:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-keep-awake:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-manifests:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-modules-core:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-splash-screen:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-system-ui:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-updates-interface:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-web-browser:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-reanimated:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:transformDebugClassesWithAsm UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :expo:processDebugJavaRes UP-TO-DATE
+> Task :expo-asset:processDebugJavaRes UP-TO-DATE
+> Task :expo-constants:processDebugJavaRes UP-TO-DATE
+> Task :expo-dev-client:processDebugJavaRes NO-SOURCE
+> Task :expo-dev-launcher:processDebugJavaRes UP-TO-DATE
+> Task :expo-dev-menu:processDebugJavaRes UP-TO-DATE
+> Task :expo-dev-menu-interface:processDebugJavaRes UP-TO-DATE
+> Task :expo-file-system:processDebugJavaRes UP-TO-DATE
+> Task :expo-font:processDebugJavaRes UP-TO-DATE
+> Task :expo-json-utils:processDebugJavaRes UP-TO-DATE
+> Task :expo-keep-awake:processDebugJavaRes UP-TO-DATE
+> Task :expo-manifests:processDebugJavaRes UP-TO-DATE
+> Task :expo-modules-core:processDebugJavaRes UP-TO-DATE
+> Task :expo-splash-screen:processDebugJavaRes UP-TO-DATE
+> Task :expo-system-ui:processDebugJavaRes UP-TO-DATE
+> Task :expo-updates-interface:processDebugJavaRes UP-TO-DATE
+> Task :expo-web-browser:processDebugJavaRes UP-TO-DATE
+> Task :react-native-gesture-handler:processDebugJavaRes UP-TO-DATE
+> Task :react-native-reanimated:processDebugJavaRes NO-SOURCE
+> Task :react-native-safe-area-context:processDebugJavaRes UP-TO-DATE
+> Task :react-native-screens:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-asset:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-asset:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-asset:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-constants:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-dev-client:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-dev-client:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-dev-client:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-dev-launcher:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-dev-launcher:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-dev-launcher:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-dev-menu:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-dev-menu:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-dev-menu:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-dev-menu-interface:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-dev-menu-interface:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-dev-menu-interface:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-file-system:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-file-system:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-file-system:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-font:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-font:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-font:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-json-utils:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-json-utils:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-json-utils:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-keep-awake:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-keep-awake:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-keep-awake:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-manifests:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-manifests:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-manifests:copyDebugJniLibsProjectOnly UP-TO-DATE
+
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a] FAILED
+C/C++: Could not start dynamically linked executable: /nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/cmake/3.22.1/bin/cmake
+C/C++: NixOS cannot run dynamically linked executables intended for generic
+C/C++: linux environments out of the box. For more information, see:
+C/C++: https://nix.dev/permalink/stub-ld
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':expo-modules-core:configureCMakeDebug[arm64-v8a]'.
+> [CXX1429] error when building with cmake using /home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/CMakeLists.txt: C++ build system [configure] failed while executing:
+      /nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/cmake/3.22.1/bin/cmake \
+        -H/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android \
+        -DCMAKE_SYSTEM_NAME=Android \
+        -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+        -DCMAKE_SYSTEM_VERSION=23 \
+        -DANDROID_PLATFORM=android-23 \
+        -DANDROID_ABI=arm64-v8a \
+        -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
+        -DANDROID_NDK=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/ndk/26.1.10909125 \
+        -DCMAKE_ANDROID_NDK=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/ndk/26.1.10909125 \
+        -DCMAKE_TOOLCHAIN_FILE=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake \
+        -DCMAKE_MAKE_PROGRAM=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/cmake/3.22.1/bin/ninja \
+        -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/build/intermediates/cxx/Debug/1y1q5h32/obj/arm64-v8a \
+        -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/build/intermediates/cxx/Debug/1y1q5h32/obj/arm64-v8a \
+        -DCMAKE_BUILD_TYPE=Debug \
+        -DCMAKE_FIND_ROOT_PATH=/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/.cxx/Debug/1y1q5h32/prefab/arm64-v8a/prefab \
+        -B/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/.cxx/Debug/1y1q5h32/arm64-v8a \
+        -GNinja \
+        -DANDROID_STL=c++_shared \
+        -DREACT_NATIVE_DIR=/home/harryp/Code/expo-test/my-app/node_modules/react-native \
+        -DREACT_NATIVE_TARGET_VERSION=74 \
+        -DUSE_HERMES=false \
+        -DIS_NEW_ARCHITECTURE_ENABLED=false \
+        -DUNIT_TEST=false
+    from /home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android
+  Could not start dynamically linked executable: /nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/cmake/3.22.1/bin/cmake
+  NixOS cannot run dynamically linked executables intended for generic
+  linux environments out of the box. For more information, see:
+  https://nix.dev/permalink/stub-ld : com.android.ide.common.process.ProcessException: C++ build system [configure] failed while executing:
+      /nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/cmake/3.22.1/bin/cmake \
+        -H/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android \
+        -DCMAKE_SYSTEM_NAME=Android \
+        -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+        -DCMAKE_SYSTEM_VERSION=23 \
+        -DANDROID_PLATFORM=android-23 \
+        -DANDROID_ABI=arm64-v8a \
+        -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
+        -DANDROID_NDK=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/ndk/26.1.10909125 \
+        -DCMAKE_ANDROID_NDK=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/ndk/26.1.10909125 \
+        -DCMAKE_TOOLCHAIN_FILE=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake \
+        -DCMAKE_MAKE_PROGRAM=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/cmake/3.22.1/bin/ninja \
+        -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/build/intermediates/cxx/Debug/1y1q5h32/obj/arm64-v8a \
+        -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/build/intermediates/cxx/Debug/1y1q5h32/obj/arm64-v8a \
+        -DCMAKE_BUILD_TYPE=Debug \
+        -DCMAKE_FIND_ROOT_PATH=/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/.cxx/Debug/1y1q5h32/prefab/arm64-v8a/prefab \
+        -B/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/.cxx/Debug/1y1q5h32/arm64-v8a \
+        -GNinja \
+        -DANDROID_STL=c++_shared \
+        -DREACT_NATIVE_DIR=/home/harryp/Code/expo-test/my-app/node_modules/react-native \
+        -DREACT_NATIVE_TARGET_VERSION=74 \
+        -DUSE_HERMES=false \
+        -DIS_NEW_ARCHITECTURE_ENABLED=false \
+        -DUNIT_TEST=false
+    from /home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android
+  Could not start dynamically linked executable: /nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/cmake/3.22.1/bin/cmake
+  NixOS cannot run dynamically linked executables intended for generic
+  linux environments out of the box. For more information, see:
+  https://nix.dev/permalink/stub-ld
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:288)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt$executeProcess$1.invoke(ExecuteProcess.kt:108)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt$executeProcess$1.invoke(ExecuteProcess.kt:106)
+  	at com.android.build.gradle.internal.cxx.timing.TimingEnvironmentKt.time(TimingEnvironment.kt:32)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.executeProcess(ExecuteProcess.kt:106)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.executeProcess$default(ExecuteProcess.kt:85)
+  	at com.android.build.gradle.tasks.CmakeQueryMetadataGenerator.executeProcess(CmakeFileApiMetadataGenerator.kt:59)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator$configureOneAbi$1$1$3.invoke(ExternalNativeJsonGenerator.kt:246)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator$configureOneAbi$1$1$3.invoke(ExternalNativeJsonGenerator.kt:246)
+  	at com.android.build.gradle.internal.cxx.timing.TimingEnvironmentKt.time(TimingEnvironment.kt:32)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator.configureOneAbi(ExternalNativeJsonGenerator.kt:246)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator.configure(ExternalNativeJsonGenerator.kt:112)
+  	at com.android.build.gradle.tasks.ExternalNativeBuildJsonTask.doTaskAction(ExternalNativeBuildJsonTask.kt:90)
+  	at com.android.build.gradle.internal.tasks.UnsafeOutputsTask$taskAction$$inlined$recordTaskAction$1.invoke(BaseTask.kt:65)
+  	at com.android.build.gradle.internal.tasks.Blocks.recordSpan(Blocks.java:51)
+  	at com.android.build.gradle.internal.tasks.UnsafeOutputsTask.taskAction(UnsafeOutputsTask.kt:63)
+  	at jdk.internal.reflect.GeneratedMethodAccessor757.invoke(Unknown Source)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:247)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+  	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:68)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:232)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:215)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:198)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:165)
+  	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+  	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+  	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+  	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+  	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+  	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+  	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+  	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:41)
+  	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:74)
+  	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+  	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+  	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+  	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+  	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+  	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+  	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+  	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:64)
+  	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:42)
+  	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+  	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+  	at org.gradle.internal.Either$Right.fold(Either.java:175)
+  	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:59)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+  	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:44)
+  	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:33)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:76)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:54)
+  	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:36)
+  	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+  	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+  	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:76)
+  	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:37)
+  	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:106)
+  	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:55)
+  	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+  	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+  	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+  	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+  	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+  	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+  	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+  	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+  	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:292)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+  	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+  	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:66)
+  	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:66)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:38)
+  	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:36)
+  	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:26)
+  	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:47)
+  	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:34)
+  	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+  	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:145)
+  	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:134)
+  	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+  	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+  	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+  	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+  	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+  	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+  	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+  	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:80)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+  	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+  	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+  	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+  	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+  	at java.base/java.lang.Thread.run(Thread.java:840)
+  Caused by: com.android.ide.common.process.ProcessException: Error while executing process /nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/cmake/3.22.1/bin/cmake with arguments {-H/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android -DCMAKE_SYSTEM_NAME=Android -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_SYSTEM_VERSION=23 -DANDROID_PLATFORM=android-23 -DANDROID_ABI=arm64-v8a -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a -DANDROID_NDK=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/ndk/26.1.10909125 -DCMAKE_ANDROID_NDK=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/ndk/26.1.10909125 -DCMAKE_TOOLCHAIN_FILE=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake -DCMAKE_MAKE_PROGRAM=/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/cmake/3.22.1/bin/ninja -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/build/intermediates/cxx/Debug/1y1q5h32/obj/arm64-v8a -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/build/intermediates/cxx/Debug/1y1q5h32/obj/arm64-v8a -DCMAKE_BUILD_TYPE=Debug -DCMAKE_FIND_ROOT_PATH=/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/.cxx/Debug/1y1q5h32/prefab/arm64-v8a/prefab -B/home/harryp/Code/expo-test/my-app/node_modules/expo-modules-core/android/.cxx/Debug/1y1q5h32/arm64-v8a -GNinja -DANDROID_STL=c++_shared -DREACT_NATIVE_DIR=/home/harryp/Code/expo-test/my-app/node_modules/react-native -DREACT_NATIVE_TARGET_VERSION=74 -DUSE_HERMES=false -DIS_NEW_ARCHITECTURE_ENABLED=false -DUNIT_TEST=false}
+  	at com.android.build.gradle.internal.process.GradleProcessResult.buildProcessException(GradleProcessResult.java:73)
+  	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:48)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:277)
+  	... 141 more
+  Caused by: org.gradle.process.internal.ExecException: Process 'command '/nix/store/gx3vflzrb8qmbzfdfhlfbvzlqwsywq60-android-sdk-env/share/android-sdk/cmake/3.22.1/bin/cmake'' finished with non-zero exit value 127
+  	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:431)
+  	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:46)
+  	... 142 more
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 8s
+449 actionable tasks: 25 executed, 424 up-to-date
+Error: /home/harryp/Code/expo-test/my-app/android/gradlew app:assembleDebug -x lint -x test --configure-on-demand --build-cache -PreactNativeDevServerPort=8081 -PreactNativeArchitectures=x86_64,arm64-v8a exited with non-zero code: 1
+Error: /home/harryp/Code/expo-test/my-app/android/gradlew app:assembleDebug -x lint -x test --configure-on-demand --build-cache -PreactNativeDevServerPort=8081 -PreactNativeArchitectures=x86_64,arm64-v8a exited with non-zero code: 1
+    at ChildProcess.completionListener (/home/harryp/Code/expo-test/my-app/node_modules/@expo/spawn-async/build/spawnAsync.js:42:23)
+    at Object.onceWrapper (node:events:635:26)
+    at ChildProcess.emit (node:events:520:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+    ...
+    at spawnAsync (/home/harryp/Code/expo-test/my-app/node_modules/@expo/spawn-async/build/spawnAsync.js:7:23)
+    at spawnGradleAsync (/home/harryp/Code/expo-test/my-app/node_modules/@expo/cli/build/src/start/platforms/android/gradle.js:96:48)
+    at assembleAsync (/home/harryp/Code/expo-test/my-app/node_modules/@expo/cli/build/src/start/platforms/android/gradle.js:74:18)
+    at runAndroidAsync (/home/harryp/Code/expo-test/my-app/node_modules/@expo/cli/build/src/run/android/runAndroidAsync.js:45:37)

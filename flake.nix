@@ -38,6 +38,7 @@
             emulator
             platform-tools
             platforms-android-34
+            cmake-3-22-1
 
             # Other useful packages for a development environment.
             ndk-26-1-10909125

@@ -7,8 +7,8 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1718524928,
-        "narHash": "sha256-l10zu2amEC+Z0IilXvViljEkKXEST+2k2XQ7IqsTZS8=",
+        "lastModified": 1718551427,
+        "narHash": "sha256-gqRkAITdnMaHH1rYkS55zg2v4S3LnnvBgSnAYf4c0yI=",
         "path": "/home/harryp/Code/android-nixpkgs-fork",
         "type": "path"
       },
@@ -164,11 +164,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1718526628,
-        "narHash": "sha256-NE+pijZjpN4X4WnOHlg+v8lt1BJKeMO/ztjCLvxc5C0=",
+        "lastModified": 1718551398,
+        "narHash": "sha256-QB5p+aV+PLettpE0Au/zgAYFNpXBimWMMkZh+9dccc4=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "5fa29cc3ee51f21c8561c627a125c2bd82e006bc",
+        "rev": "ad587b26035c123590bca788c2968e68f372ee9e",
         "type": "github"
       },
       "original": {
