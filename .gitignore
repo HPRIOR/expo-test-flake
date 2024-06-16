@@ -1082,3 +1082,5 @@ FodyWeavers.xsd
 # End of https://www.toptal.com/developers/gitignore/api/android,androidstudio,vim,node,visualstudio,visualstudiocode,jetbrains+all,windows,macos,linux,java,kotlin,react,reactnative
 
 .direnv
+*/**/android
+.android

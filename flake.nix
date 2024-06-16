@@ -5,16 +5,16 @@
     nixpkgs.url = "github:NixOS/nixpkgs";
     devshell.url = "github:numtide/devshell";
     flake-utils.url = "github:numtide/flake-utils";
-    android.url = "github:tadfisher/android-nixpkgs";
+    android.url = "path:/home/harryp/Code/android-nixpkgs-fork";
+    
   };
 
   outputs = { self, nixpkgs, devshell, flake-utils, android }:
-{
-  overlay = final: prev: {
-    inherit (self.packages.${final.system}) android-sdk;
-    android-studio = prev.android-studio or null;
-  };
-}
+    {
+      overlay = final: prev: {
+        inherit (self.packages.${final.system}) android-sdk android-studio;
+      };
+    }
     //
     flake-utils.lib.eachSystem [ "aarch64-darwin" "x86_64-darwin" "x86_64-linux" ] (system:
       let
@@ -42,14 +42,13 @@
             # ndk-26-1-10909125
             # skiaparser-3
             # sources-android-34
+
           ]
           ++ lib.optionals (system == "aarch64-darwin") [
             system-images-android-34-google-apis-arm64-v8a
-            system-images-android-34-google-apis-playstore-arm64-v8a
           ]
           ++ lib.optionals (system == "x86_64-darwin" || system == "x86_64-linux") [
             system-images-android-34-google-apis-x86-64
-            system-images-android-34-google-apis-playstore-x86-64
           ]);
         } // lib.optionalAttrs (system == "x86_64-linux") {
           # Android Studio in nixpkgs is currently packaged for x86_64-linux only.

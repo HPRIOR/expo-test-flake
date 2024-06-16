@@ -1,37 +1,54 @@
-{ pkgs }:
+{pkgs}:
+with pkgs; let
+  # android-studio is not available in aarch64-darwin
+  conditionalPackages =
+    if pkgs.system != "aarch64-darwin"
+    then [android-studio]
+    else [];
 
-with pkgs;
+    avdRoot = "$PWD/.android/avd";
+in
+  with pkgs;
+  # Configure your development environment.
+  #
+  # Documentation: https://github.com/numtide/devshell
+    devshell.mkShell {
+      name = "android-project";
+      motd = ''
+        Entered the Android app development environment.
+      '';
 
-# Configure your development environment.
-#
-# Documentation: https://github.com/numtide/devshell
-devshell.mkShell {
-  name = "android-project";
-  motd = ''
-    Entered the Android app development environment.
-  '';
-  env = [
-    {
-      name = "ANDROID_HOME";
-      value = "${android-sdk}/share/android-sdk";
+      env = [
+        {
+          name = "ANDROID_HOME";
+          value = "${android-sdk}/share/android-sdk";
+        }
+        {
+          name = "ANDROID_SDK_ROOT";
+          value = "${android-sdk}/share/android-sdk";
+        }
+        {
+          name = "JAVA_HOME";
+          value = jdk.home;
+        }
+      ];
+      packages =
+        [
+          android-sdk
+          gradle
+          jdk
+          # expo
+          watchman
+          nodejs_22
+        ]
+        ++ conditionalPackages;
+
+      devshell.startup.avdroot.text = ''
+        echo "Creating android avd root as ${avdRoot}"
+        mkdir -p "${avdRoot}"
+
+        echo "Exporting ANDROID_AVD_HOME"
+        export ANDROID_AVD_HOME="${avdRoot}"
+
+      '';
     }
-    {
-      name = "ANDROID_SDK_ROOT";
-      value = "${android-sdk}/share/android-sdk";
-    }
-    {
-      name = "JAVA_HOME";
-      value = jdk.home;
-    }
-    {
-        name = "ANDROID_AVD_HOME";
-        value = "/home/harryp/.config/.android/avd/";
-    }
-  ];
-  packages = [
-    android-studio
-    android-sdk
-    gradle
-    jdk
-  ];
-}
