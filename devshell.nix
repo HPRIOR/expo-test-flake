@@ -1,4 +1,4 @@
-{pkgs}:
+{ pkgs, defaultBuildToolsVersion }:
 with pkgs; let
   # android-studio is not available in aarch64-darwin
   conditionalPackages =
@@ -6,7 +6,7 @@ with pkgs; let
     then [android-studio]
     else [];
 
-    avdRoot = "$PWD/.android/avd";
+  avdRoot = "$PWD/.android/avd";
 in
   with pkgs;
   # Configure your development environment.
@@ -29,17 +29,27 @@ in
         }
         {
           name = "JAVA_HOME";
-          value = jdk.home;
+          value = openjdk17.home;
+        }
+        {
+          name = "GRADLE_HOME";
+          value = "${gradle}/bin";
+        }
+        {
+          name = "GRADLE_OPTS";
+          value = "-Dorg.gradle.java.home=${openjdk17.home} -Dorg.gradle.project.android.aapt2FromMavenOverride=${android-sdk}/share/android-sdk/build-tools/${defaultBuildToolsVersion}/aapt2";
         }
       ];
       packages =
         [
           android-sdk
           gradle
-          jdk
+          openjdk17
+          cmake
           # expo
           watchman
           nodejs_22
+          ninja
         ]
         ++ conditionalPackages;
 

@@ -27,6 +27,7 @@
             self.overlay
           ];
         };
+        defaultBuildToolsVersion = "34.0.0";
       in
       {
         packages = {
@@ -39,7 +40,7 @@
             platforms-android-34
 
             # Other useful packages for a development environment.
-            # ndk-26-1-10909125
+            ndk-26-1-10909125
             # skiaparser-3
             # sources-android-34
 
@@ -58,7 +59,7 @@
           # android-studio = pkgs.androidStudioPackage.canary;
         };
 
-        devShell = import ./devshell.nix { inherit pkgs; };
+        devShell = import ./devshell.nix { inherit pkgs; defaultBuildToolsVersion = defaultBuildToolsVersion; };
       }
     );
 }
